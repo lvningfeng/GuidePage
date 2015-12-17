@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AVI-qq-3Nx">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GuidePage" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="3.png" translatesAutoresizingMaskIntoConstraints="NO" id="J4a-Rr-2oL">
+                                <rect key="frame" x="100" y="115" width="240" height="128"/>
+                            </imageView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="p6E-Rl-Hkq">
+                                <rect key="frame" x="228" y="423" width="39" height="37"/>
+                                <color key="pageIndicatorTintColor" red="0.76432972880000005" green="1" blue="0.85600728029999995" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <color key="currentPageIndicatorTintColor" red="1" green="0.29227653980000001" blue="0.45388992519999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="GuidePageChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="ro2-i2-g7i"/>
+                                </connections>
+                            </pageControl>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qWG-P8-1z0">
+                                <rect key="frame" x="221" y="385" width="60" height="30"/>
+                                <state key="normal" title="进入使用"/>
+                                <connections>
+                                    <action selector="FuncBTNNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gZB-lL-ZgN"/>
+                                    <segue destination="lka-aX-HOn" kind="show" id="uee-xb-hRl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="qWG-P8-1z0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4SY-Xi-DjI"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="p6E-Rl-Hkq" secondAttribute="bottom" constant="80" id="9ra-5I-y8n"/>
+                            <constraint firstItem="p6E-Rl-Hkq" firstAttribute="top" secondItem="qWG-P8-1z0" secondAttribute="bottom" constant="15" id="9uV-ps-x6J"/>
+                            <constraint firstItem="J4a-Rr-2oL" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="WIk-wD-BZv"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="J4a-Rr-2oL" secondAttribute="bottom" id="XCa-tn-q1a"/>
+                            <constraint firstItem="J4a-Rr-2oL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gPG-oW-cgH"/>
+                            <constraint firstItem="p6E-Rl-Hkq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="h2O-tX-9GP"/>
+                            <constraint firstAttribute="trailing" secondItem="J4a-Rr-2oL" secondAttribute="trailing" id="j0E-SG-Ab0"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="g7A-Bs-SqZ" appends="YES" id="hhv-ll-bAb"/>
+                            <outletCollection property="gestureRecognizers" destination="CAv-mO-5vq" appends="YES" id="61L-qE-mlT"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="nyW-zQ-Nt7"/>
+                    <connections>
+                        <outlet property="buttonNext" destination="qWG-P8-1z0" id="e0r-im-KK7"/>
+                        <outlet property="guidepage" destination="p6E-Rl-Hkq" id="M23-l6-Z4t"/>
+                        <outlet property="imageView" destination="J4a-Rr-2oL" id="UoH-Ja-VRv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="g7A-Bs-SqZ">
+                    <connections>
+                        <action selector="swipeGesture:" destination="BYZ-38-t0r" id="PhM-09-C7g"/>
+                    </connections>
+                </swipeGestureRecognizer>
+                <swipeGestureRecognizer direction="left" id="CAv-mO-5vq">
+                    <connections>
+                        <action selector="swipeleft:" destination="BYZ-38-t0r" id="qi4-9i-JSU"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="781" y="-337"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="E5n-ZU-yo7">
+            <objects>
+                <viewController storyboardIdentifier="MainViewController" id="lka-aX-HOn" customClass="MainViewController" customModule="GuidePage" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u4C-oN-boj"/>
+                        <viewControllerLayoutGuide type="bottom" id="YCz-zf-CEK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Z1Z-Gt-0aX">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="主界面.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ARE-Sp-g74">
+                                <rect key="frame" x="77" y="118" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ARE-Sp-g74" secondAttribute="trailing" id="Rqs-8t-i5t"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="ARE-Sp-g74" secondAttribute="bottom" id="W5Q-tl-Uk8"/>
+                            <constraint firstItem="ARE-Sp-g74" firstAttribute="leading" secondItem="Z1Z-Gt-0aX" secondAttribute="leading" id="qMV-sG-bFR"/>
+                            <constraint firstItem="ARE-Sp-g74" firstAttribute="top" secondItem="Z1Z-Gt-0aX" secondAttribute="topMargin" id="xVy-n0-0aU"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qwR-QY-zFS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1463" y="-251"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Xfh-tu-qbe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AVI-qq-3Nx" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hzB-Kt-58u">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Y6A-Du-38X"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e8W-7j-GFl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="151" y="-441"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="3.png" width="720" height="1280"/>
+        <image name="主界面.jpg" width="752" height="1336"/>
+    </resources>
+</document>
