@@ -27,10 +27,10 @@
 		E958620E1C214F5D0067D07F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E95862111C214F5D0067D07F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E95862131C214F5D0067D07F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E95862191C2150570067D07F /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
-		E958621A1C2150570067D07F /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 123.jpg; sourceTree = "<group>"; };
-		E958621D1C2151640067D07F /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
-		E958621F1C2151AA0067D07F /* 主界面.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "主界面.jpg"; sourceTree = "<group>"; };
+		E95862191C2150570067D07F /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = GuidePage/3.png; sourceTree = "<group>"; };
+		E958621A1C2150570067D07F /* 123.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 123.jpg; path = GuidePage/123.jpg; sourceTree = "<group>"; };
+		E958621D1C2151640067D07F /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 5.jpg; path = GuidePage/5.jpg; sourceTree = "<group>"; };
+		E958621F1C2151AA0067D07F /* 主界面.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "主界面.jpg"; path = "GuidePage/主界面.jpg"; sourceTree = "<group>"; };
 		E95862211C2154120067D07F /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,6 +48,7 @@
 		E95861FB1C214F5D0067D07F = {
 			isa = PBXGroup;
 			children = (
+				E95862231C225D080067D07F /* Images */,
 				E95862061C214F5D0067D07F /* GuidePage */,
 				E95862051C214F5D0067D07F /* Products */,
 			);
@@ -64,10 +65,6 @@
 		E95862061C214F5D0067D07F /* GuidePage */ = {
 			isa = PBXGroup;
 			children = (
-				E95862191C2150570067D07F /* 3.png */,
-				E958621D1C2151640067D07F /* 5.jpg */,
-				E958621A1C2150570067D07F /* 123.jpg */,
-				E958621F1C2151AA0067D07F /* 主界面.jpg */,
 				E95862071C214F5D0067D07F /* AppDelegate.swift */,
 				E95862091C214F5D0067D07F /* ViewController.swift */,
 				E958620B1C214F5D0067D07F /* Main.storyboard */,
@@ -77,6 +74,17 @@
 				E95862211C2154120067D07F /* MainViewController.swift */,
 			);
 			path = GuidePage;
+			sourceTree = "<group>";
+		};
+		E95862231C225D080067D07F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E95862191C2150570067D07F /* 3.png */,
+				E958621D1C2151640067D07F /* 5.jpg */,
+				E958621A1C2150570067D07F /* 123.jpg */,
+				E958621F1C2151AA0067D07F /* 主界面.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
