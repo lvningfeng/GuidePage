@@ -7,14 +7,18 @@
 //
 
 import UIKit
+import Alamofire
 
 class MainViewController: UIViewController {
 
+    @IBOutlet weak var btnlogIn: UIButton!
+    @IBOutlet weak var txtPassWord: UITextField!
+    @IBOutlet weak var txtAccountNumber: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         
         navigationItem.setHidesBackButton(true, animated: true)
-        
+        btnlogIn.backgroundColor=UIColor(red:0.8,green:0.8,blue:0.8,alpha:1.0)
 
         
         // Do any additional setup after loading the view.
@@ -25,7 +29,21 @@ class MainViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func btnAction(sender: AnyObject) {
+        
+        let accountNumber=txtAccountNumber.text
+        let password=txtPassWord.text
 
+        
+        
+        
+        
+
+        
+    }
+    
+    
+    
     /*
     // MARK: - Navigation
 
@@ -35,5 +53,8 @@ class MainViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+
+
+    
 
 }

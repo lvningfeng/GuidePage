@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         buttonNext.hidden=true
+        
+        
  
     }
 
@@ -25,19 +27,19 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     @IBAction func swipeGesture(sender: UISwipeGestureRecognizer) {
-        guidepage.currentPage=guidepage.currentPage+1
-        if (guidepage.hidden==false)
-        {
+        guidepage.currentPage=guidepage.currentPage-1
+        //if (guidepage.hidden==false)
+       // {
             changeImage()
-        }
+       // }
     }
 
     @IBAction func swipeleft(sender: UISwipeGestureRecognizer) {
-        guidepage.currentPage=guidepage.currentPage-1
-        if (guidepage.hidden==false)
-        {
+        guidepage.currentPage=guidepage.currentPage+1
+       // if (guidepage.hidden==false)
+       // {
             changeImage()
-        }
+        //}
     }
     @IBAction func FuncBTNNext(sender: AnyObject) {
     }
@@ -62,7 +64,7 @@ class ViewController: UIViewController {
         case 2:
             imageView.image=image3
             buttonNext.hidden=false
-            guidepage.hidden=true
+            //guidepage.hidden=true
             break;
         default:
             break;

@@ -26,13 +26,13 @@ class AppDelegate: UIResponder,UIApplicationDelegate {
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         
-              if appVersion == nil || appVersion != currentAppVersion {
+        if appVersion == nil || appVersion != currentAppVersion {
             userDefaults.setValue(currentAppVersion, forKey: "appVersion")
         }
         else{
-            let mainViewController = storyboard.instantiateViewControllerWithIdentifier("MainViewController") as! MainViewController
-            
-            self.window!.rootViewController = mainViewController
+//            let mainViewController = storyboard.instantiateViewControllerWithIdentifier("MainViewController") as! MainViewController
+//            
+//            self.window!.rootViewController = mainViewController
 
             
         }
