@@ -19,7 +19,7 @@ class MainViewController: UIViewController {
         
         navigationItem.setHidesBackButton(true, animated: true)
         btnlogIn.backgroundColor=UIColor(red:0.8,green:0.8,blue:0.8,alpha:1.0)
-
+        self.navigationController!.navigationBarHidden = false
         
         // Do any additional setup after loading the view.
     }
