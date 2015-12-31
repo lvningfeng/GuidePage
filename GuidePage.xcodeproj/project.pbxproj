@@ -21,6 +21,20 @@
 		E96DECFA1C22850B000EFE65 /* 手机号.png in Resources */ = {isa = PBXBuildFile; fileRef = E96DECF71C22850A000EFE65 /* 手机号.png */; };
 		E98822761C2BF89100158B71 /* TruckControllerViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98822751C2BF89100158B71 /* TruckControllerViewItem.swift */; };
 		E98822881C2D109E00158B71 /* AddDriverTruckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98822871C2D109E00158B71 /* AddDriverTruckVC.swift */; };
+		E9B8008A1C337F97009F06AE /* yyz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9B800871C337F97009F06AE /* yyz.jpg */; };
+		E9B8008B1C337F97009F06AE /* truck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9B800881C337F97009F06AE /* truck.jpg */; };
+		E9B8008C1C337F97009F06AE /* xcz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9B800891C337F97009F06AE /* xcz.jpg */; };
+		E9B8009C1C3388D2009F06AE /* goodstype.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B800941C3388D2009F06AE /* goodstype.png */; };
+		E9B8009D1C3388D2009F06AE /* startPosition.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B800951C3388D2009F06AE /* startPosition.png */; };
+		E9B8009E1C3388D2009F06AE /* graborder.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B800961C3388D2009F06AE /* graborder.png */; };
+		E9B8009F1C3388D2009F06AE /* littletruck.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B800971C3388D2009F06AE /* littletruck.png */; };
+		E9B800A01C3388D2009F06AE /* returnback.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B800981C3388D2009F06AE /* returnback.png */; };
+		E9B800A11C3388D2009F06AE /* endPosition.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B800991C3388D2009F06AE /* endPosition.png */; };
+		E9B800A21C3388D2009F06AE /* bigtruck.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B8009A1C3388D2009F06AE /* bigtruck.png */; };
+		E9B800A31C3388D2009F06AE /* loadtime.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B8009B1C3388D2009F06AE /* loadtime.png */; };
+		E9B800A51C33A019009F06AE /* GoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B800A41C33A019009F06AE /* GoodsViewController.swift */; };
+		E9B800A81C34BC36009F06AE /* MyOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B800A71C34BC36009F06AE /* MyOrderViewController.swift */; };
+		E9B800B01C34DAA4009F06AE /* GoodInfoViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B800AF1C34DAA4009F06AE /* GoodInfoViewItem.swift */; };
 		E9D442281C27E471006E200D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D4421B1C27E45C006E200D /* Alamofire.framework */; };
 		E9D442291C27E471006E200D /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9D4421B1C27E45C006E200D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E9D9833F1C2BCEB4004E3493 /* ReleaseTruckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9833E1C2BCEB4004E3493 /* ReleaseTruckViewController.swift */; };
@@ -129,6 +143,20 @@
 		E96DECF71C22850A000EFE65 /* 手机号.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "手机号.png"; path = "登录/手机号.png"; sourceTree = "<group>"; };
 		E98822751C2BF89100158B71 /* TruckControllerViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruckControllerViewItem.swift; sourceTree = "<group>"; };
 		E98822871C2D109E00158B71 /* AddDriverTruckVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDriverTruckVC.swift; sourceTree = "<group>"; };
+		E9B800871C337F97009F06AE /* yyz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yyz.jpg; sourceTree = "<group>"; };
+		E9B800881C337F97009F06AE /* truck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = truck.jpg; sourceTree = "<group>"; };
+		E9B800891C337F97009F06AE /* xcz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xcz.jpg; sourceTree = "<group>"; };
+		E9B800941C3388D2009F06AE /* goodstype.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = goodstype.png; sourceTree = "<group>"; };
+		E9B800951C3388D2009F06AE /* startPosition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = startPosition.png; sourceTree = "<group>"; };
+		E9B800961C3388D2009F06AE /* graborder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graborder.png; sourceTree = "<group>"; };
+		E9B800971C3388D2009F06AE /* littletruck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = littletruck.png; sourceTree = "<group>"; };
+		E9B800981C3388D2009F06AE /* returnback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = returnback.png; sourceTree = "<group>"; };
+		E9B800991C3388D2009F06AE /* endPosition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = endPosition.png; sourceTree = "<group>"; };
+		E9B8009A1C3388D2009F06AE /* bigtruck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigtruck.png; sourceTree = "<group>"; };
+		E9B8009B1C3388D2009F06AE /* loadtime.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loadtime.png; sourceTree = "<group>"; };
+		E9B800A41C33A019009F06AE /* GoodsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsViewController.swift; sourceTree = "<group>"; };
+		E9B800A71C34BC36009F06AE /* MyOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrderViewController.swift; sourceTree = "<group>"; };
+		E9B800AF1C34DAA4009F06AE /* GoodInfoViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodInfoViewItem.swift; sourceTree = "<group>"; };
 		E9D442101C27E45B006E200D /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
 		E9D9833E1C2BCEB4004E3493 /* ReleaseTruckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReleaseTruckViewController.swift; sourceTree = "<group>"; };
 		E9D983471C2BD600004E3493 /* DictionaryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryModel.swift; sourceTree = "<group>"; };
@@ -192,6 +220,7 @@
 		E95862231C225D080067D07F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E9B800931C3388B7009F06AE /* goodsInfo */,
 				E9E4DD9E1C2960B800C496D3 /* 引导页 */,
 			);
 			name = Images;
@@ -201,8 +230,24 @@
 			isa = PBXGroup;
 			children = (
 				E98822751C2BF89100158B71 /* TruckControllerViewItem.swift */,
+				E9B800AF1C34DAA4009F06AE /* GoodInfoViewItem.swift */,
 			);
 			name = CustomControllers;
+			sourceTree = "<group>";
+		};
+		E9B800931C3388B7009F06AE /* goodsInfo */ = {
+			isa = PBXGroup;
+			children = (
+				E9B800941C3388D2009F06AE /* goodstype.png */,
+				E9B800951C3388D2009F06AE /* startPosition.png */,
+				E9B800961C3388D2009F06AE /* graborder.png */,
+				E9B800971C3388D2009F06AE /* littletruck.png */,
+				E9B800981C3388D2009F06AE /* returnback.png */,
+				E9B800991C3388D2009F06AE /* endPosition.png */,
+				E9B8009A1C3388D2009F06AE /* bigtruck.png */,
+				E9B8009B1C3388D2009F06AE /* loadtime.png */,
+			);
+			name = goodsInfo;
 			sourceTree = "<group>";
 		};
 		E9D442111C27E45B006E200D /* Products */ = {
@@ -230,6 +275,9 @@
 		E9E4DD9E1C2960B800C496D3 /* 引导页 */ = {
 			isa = PBXGroup;
 			children = (
+				E9B800871C337F97009F06AE /* yyz.jpg */,
+				E9B800881C337F97009F06AE /* truck.jpg */,
+				E9B800891C337F97009F06AE /* xcz.jpg */,
 				E9E4DDC91C2A964C00C496D3 /* 返回.png */,
 				E9E4DDC71C2A963D00C496D3 /* expand.png */,
 				E9E4DDC51C2A963500C496D3 /* 上传照片.png */,
@@ -269,6 +317,8 @@
 				E95862091C214F5D0067D07F /* ViewController.swift */,
 				E9D9833E1C2BCEB4004E3493 /* ReleaseTruckViewController.swift */,
 				E98822871C2D109E00158B71 /* AddDriverTruckVC.swift */,
+				E9B800A41C33A019009F06AE /* GoodsViewController.swift */,
+				E9B800A71C34BC36009F06AE /* MyOrderViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -392,25 +442,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9B8009E1C3388D2009F06AE /* graborder.png in Resources */,
 				E9E4DDC11C2A880C00C496D3 /* 我是车主.jpg in Resources */,
 				E9E4DDAE1C2A2F9200C496D3 /* selected.png in Resources */,
 				E9E4DDC21C2A880C00C496D3 /* 我是货主.jpg in Resources */,
 				E9E4DDAA1C2A2B6200C496D3 /* 姓名.png in Resources */,
+				E9B800A31C3388D2009F06AE /* loadtime.png in Resources */,
+				E9B800A11C3388D2009F06AE /* endPosition.png in Resources */,
 				E96DECF91C22850B000EFE65 /* 密码.png in Resources */,
 				E958620F1C214F5D0067D07F /* Assets.xcassets in Resources */,
 				E96DECF81C22850B000EFE65 /* 交运LOGO.png in Resources */,
 				E96DECFA1C22850B000EFE65 /* 手机号.png in Resources */,
+				E9B800A01C3388D2009F06AE /* returnback.png in Resources */,
 				E958620D1C214F5D0067D07F /* Main.storyboard in Resources */,
 				E9E4DDC81C2A963D00C496D3 /* expand.png in Resources */,
+				E9B8009D1C3388D2009F06AE /* startPosition.png in Resources */,
 				E9E4DDC01C2A880C00C496D3 /* 门头照片.jpg in Resources */,
+				E9B800A21C3388D2009F06AE /* bigtruck.png in Resources */,
+				E9B8008C1C337F97009F06AE /* xcz.jpg in Resources */,
 				E958621E1C2151640067D07F /* 5.jpg in Resources */,
 				E9E4DDAD1C2A2F9200C496D3 /* unselect.png in Resources */,
 				E9E4DDBF1C2A880C00C496D3 /* 个人名片.jpg in Resources */,
 				E9E4DDC41C2A962700C496D3 /* 添加.png in Resources */,
+				E9B8008A1C337F97009F06AE /* yyz.jpg in Resources */,
+				E9B8009C1C3388D2009F06AE /* goodstype.png in Resources */,
 				E9E4DDCA1C2A964D00C496D3 /* 返回.png in Resources */,
+				E9B8008B1C337F97009F06AE /* truck.jpg in Resources */,
 				E958621B1C2150570067D07F /* 3.png in Resources */,
 				E95862201C2151AA0067D07F /* 主界面.jpg in Resources */,
 				E958621C1C2150570067D07F /* 123.jpg in Resources */,
+				E9B8009F1C3388D2009F06AE /* littletruck.png in Resources */,
 				E9E4DDC61C2A963500C496D3 /* 上传照片.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +485,9 @@
 			files = (
 				E98822881C2D109E00158B71 /* AddDriverTruckVC.swift in Sources */,
 				E95862221C2154120067D07F /* MainViewController.swift in Sources */,
+				E9B800A51C33A019009F06AE /* GoodsViewController.swift in Sources */,
+				E9B800A81C34BC36009F06AE /* MyOrderViewController.swift in Sources */,
+				E9B800B01C34DAA4009F06AE /* GoodInfoViewItem.swift in Sources */,
 				E9D983481C2BD600004E3493 /* DictionaryModel.swift in Sources */,
 				E958620A1C214F5D0067D07F /* ViewController.swift in Sources */,
 				E95862081C214F5D0067D07F /* AppDelegate.swift in Sources */,

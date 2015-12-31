@@ -30,13 +30,13 @@ class RegisterViewController: UIViewController {
     @IBAction func ReadandAgree(sender: UIButton) {
         if(isCheck==true)
         {
-            uiBtnReadAndAgree.setBackgroundImage(UIImage(named: "icon-未选中.png"), forState: .Normal)
+            uiBtnReadAndAgree.setBackgroundImage(UIImage(named: "unselect.png"), forState: .Normal)
             isCheck=false
        
         }
         else
         {
-            uiBtnReadAndAgree.setBackgroundImage(UIImage(named: "icon-选中.png"), forState: .Normal)
+            uiBtnReadAndAgree.setBackgroundImage(UIImage(named: "selected.png"), forState: .Normal)
             isCheck=true
         }
         print(isCheck)

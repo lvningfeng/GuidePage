@@ -13,8 +13,9 @@ enum CertType {
     case SinglePerson
 }
 
-enum CompassPoint2 {
-    case Company
-    case InformationDepartment
-    case SinglePerson
+enum TruckUseType {
+    case wholeVehicle
+    case carpooling
+    case dedicatedLine
+    case massGoods
 }

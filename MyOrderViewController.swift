@@ -1,26 +1,19 @@
 //
-//  MainViewController.swift
+//  MyOrderViewController.swift
 //  GuidePage
 //
-//  Created by 吕宁锋 on 15/12/16.
+//  Created by 吕宁锋 on 15/12/31.
 //  Copyright © 2015年 吕宁锋. All rights reserved.
 //
 
 import UIKit
-import Alamofire
 
-class MainViewController: UIViewController {
+class MyOrderViewController: UIViewController {
 
-    @IBOutlet weak var btnlogIn: UIButton!
-    @IBOutlet weak var txtPassWord: UITextField!
-    @IBOutlet weak var txtAccountNumber: UITextField!
+    @IBOutlet weak var uiScrollView: UIScrollView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        navigationItem.setHidesBackButton(true, animated: true)
-        btnlogIn.backgroundColor=UIColor(red:0.8,green:0.8,blue:0.8,alpha:1.0)
-        self.navigationController!.navigationBarHidden = false
-        
+
         // Do any additional setup after loading the view.
     }
 
@@ -28,22 +21,14 @@ class MainViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    @IBAction func btnAction(sender: AnyObject) {
-        
-//        let accountNumber=txtAccountNumber.text
-//        let password=txtPassWord.text
-
-        
-        
-        
-        
-
-        
+    var number=0
+    @IBAction func SwipeFunc(sender: AnyObject) {
+        GoodInfoViewItem.addGoodItemViewIntoTheScrollView(number, loadDate: "2015年12月31日", startCity: "河南 郑州", endCity: "山西 太原", goodInfo: "其他类型", isLittleOrBig: false, remark: "求16立方米车，车型不限", uiScrollView: uiScrollView, phoneViewWitdh: self.view.center.x*2,grabButtonName: "已完成")
+        uiScrollView.contentSize=CGSizeMake(0, CGFloat(15+146*(number+1)) );
+        number=number+1
+       
     }
-    
-    
-    
+
     /*
     // MARK: - Navigation
 
@@ -53,8 +38,5 @@ class MainViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
-
-    
 
 }

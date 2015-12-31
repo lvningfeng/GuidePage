@@ -33,7 +33,6 @@ class ReleaseTruckViewController: UIViewController {
         button1.setBackgroundImage(UIImage(named: "selected.png"), forState: .Normal)
         button2.setBackgroundImage(UIImage(named: "unselect.png"), forState: .Normal)
         button3.setBackgroundImage(UIImage(named: "unselect.png"), forState: .Normal)
-        
     }
     
     @IBAction func rbClickCom(sender: AnyObject) {
@@ -102,11 +101,11 @@ class ReleaseTruckViewController: UIViewController {
 
         
     }
-    var number=0
+    var number:Int=0
     //添加车源
     @IBAction func InsertTruck(sender: UIButton) {
         
-        uiScrollView.contentSize =  CGSizeMake(0, 500);
+        uiScrollView.contentSize =  CGSizeMake(0, CGFloat(6+33*(number+1)) );
         uiScrollView.showsVerticalScrollIndicator=true
         creatTruckViewItem(number,sv: uiScrollView)
         number=number+1

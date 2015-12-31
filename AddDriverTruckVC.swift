@@ -17,8 +17,15 @@ class AddDriverTruckVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        uiScrowView.contentSize = CGSizeMake(0, 2500);
+        uiScrowView.contentSize = CGSizeMake(0, 560);
       
     }
+    
+    @IBAction func ASDASDA(sender: AnyObject) {
+        
+        
+
+    }
+   
 
 }
