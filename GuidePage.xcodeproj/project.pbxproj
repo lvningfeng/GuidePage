@@ -7,6 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E904A6701C3CDC7200F9CADC /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = E904A66F1C3CDC7200F9CADC /* close.png */; };
+		E904A6831C3CE89600F9CADC /* 上传照片.png in Resources */ = {isa = PBXBuildFile; fileRef = E904A6781C3CE89600F9CADC /* 上传照片.png */; };
+		E904A6841C3CE89600F9CADC /* payByCard.png in Resources */ = {isa = PBXBuildFile; fileRef = E904A6791C3CE89600F9CADC /* payByCard.png */; };
+		E904A6851C3CE89600F9CADC /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = E904A67A1C3CE89600F9CADC /* history.png */; };
+		E904A6861C3CE89600F9CADC /* 展开.png in Resources */ = {isa = PBXBuildFile; fileRef = E904A67B1C3CE89600F9CADC /* 展开.png */; };
+		E904A6871C3CE89600F9CADC /* myattention.png in Resources */ = {isa = PBXBuildFile; fileRef = E904A67C1C3CE89600F9CADC /* myattention.png */; };
+		E904A6881C3CE89600F9CADC /* myFamilarTrucks.png in Resources */ = {isa = PBXBuildFile; fileRef = E904A67D1C3CE89600F9CADC /* myFamilarTrucks.png */; };
+		E904A6891C3CE89600F9CADC /* messages.png in Resources */ = {isa = PBXBuildFile; fileRef = E904A67E1C3CE89600F9CADC /* messages.png */; };
+		E904A68A1C3CE89600F9CADC /* payhistory.png in Resources */ = {isa = PBXBuildFile; fileRef = E904A67F1C3CE89600F9CADC /* payhistory.png */; };
+		E904A68B1C3CE89600F9CADC /* setInfo.png in Resources */ = {isa = PBXBuildFile; fileRef = E904A6801C3CE89600F9CADC /* setInfo.png */; };
+		E904A68C1C3CE89600F9CADC /* 返回.png in Resources */ = {isa = PBXBuildFile; fileRef = E904A6811C3CE89600F9CADC /* 返回.png */; };
+		E904A68D1C3CE89600F9CADC /* findFriends.png in Resources */ = {isa = PBXBuildFile; fileRef = E904A6821C3CE89600F9CADC /* findFriends.png */; };
+		E904A68F1C3CEB1400F9CADC /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E904A68E1C3CEB1400F9CADC /* MineViewController.swift */; };
+		E94DBFB81C3CBE8700509385 /* WritePayCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DBFB71C3CBE8700509385 /* WritePayCodeViewController.swift */; };
+		E94DBFC01C3CC1E000509385 /* UpdatePayCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DBFBF1C3CC1E000509385 /* UpdatePayCodeViewController.swift */; };
+		E94DBFC21C3CC32C00509385 /* PayCodeSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94DBFC11C3CC32C00509385 /* PayCodeSelectViewController.swift */; };
 		E95862081C214F5D0067D07F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95862071C214F5D0067D07F /* AppDelegate.swift */; };
 		E958620A1C214F5D0067D07F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95862091C214F5D0067D07F /* ViewController.swift */; };
 		E958620D1C214F5D0067D07F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E958620B1C214F5D0067D07F /* Main.storyboard */; };
@@ -35,6 +51,7 @@
 		E9B800A51C33A019009F06AE /* GoodsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B800A41C33A019009F06AE /* GoodsViewController.swift */; };
 		E9B800A81C34BC36009F06AE /* MyOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B800A71C34BC36009F06AE /* MyOrderViewController.swift */; };
 		E9B800B01C34DAA4009F06AE /* GoodInfoViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9B800AF1C34DAA4009F06AE /* GoodInfoViewItem.swift */; };
+		E9BA18441C3CB6B50063301E /* PhoneIDNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9BA18431C3CB6B50063301E /* PhoneIDNumberViewController.swift */; };
 		E9D442281C27E471006E200D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D4421B1C27E45C006E200D /* Alamofire.framework */; };
 		E9D442291C27E471006E200D /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E9D4421B1C27E45C006E200D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E9D9833F1C2BCEB4004E3493 /* ReleaseTruckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D9833E1C2BCEB4004E3493 /* ReleaseTruckViewController.swift */; };
@@ -51,6 +68,14 @@
 		E9E4DDC61C2A963500C496D3 /* 上传照片.png in Resources */ = {isa = PBXBuildFile; fileRef = E9E4DDC51C2A963500C496D3 /* 上传照片.png */; };
 		E9E4DDC81C2A963D00C496D3 /* expand.png in Resources */ = {isa = PBXBuildFile; fileRef = E9E4DDC71C2A963D00C496D3 /* expand.png */; };
 		E9E4DDCA1C2A964D00C496D3 /* 返回.png in Resources */ = {isa = PBXBuildFile; fileRef = E9E4DDC91C2A964C00C496D3 /* 返回.png */; };
+		E9FD0B6D1C3A61FD003C3B48 /* cellphonereplenishing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9FD0B671C3A61FD003C3B48 /* cellphonereplenishing.jpg */; };
+		E9FD0B6E1C3A61FD003C3B48 /* TransferAccounts.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9FD0B681C3A61FD003C3B48 /* TransferAccounts.jpg */; };
+		E9FD0B701C3A61FD003C3B48 /* paycode.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9FD0B6A1C3A61FD003C3B48 /* paycode.jpg */; };
+		E9FD0B711C3A61FD003C3B48 /* bankcard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9FD0B6B1C3A61FD003C3B48 /* bankcard.jpg */; };
+		E9FD0B721C3A61FD003C3B48 /* redpacket.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9FD0B6C1C3A61FD003C3B48 /* redpacket.jpg */; };
+		E9FD0B741C3A633E003C3B48 /* Paybycard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9FD0B731C3A633E003C3B48 /* Paybycard.jpg */; };
+		E9FD0B761C3A657B003C3B48 /* MyWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FD0B751C3A657B003C3B48 /* MyWalletViewController.swift */; };
+		E9FD0B781C3B5604003C3B48 /* PaymentCodeSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FD0B771C3B5604003C3B48 /* PaymentCodeSetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +152,22 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E904A66F1C3CDC7200F9CADC /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		E904A6781C3CE89600F9CADC /* 上传照片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上传照片.png"; sourceTree = "<group>"; };
+		E904A6791C3CE89600F9CADC /* payByCard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = payByCard.png; sourceTree = "<group>"; };
+		E904A67A1C3CE89600F9CADC /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history.png; sourceTree = "<group>"; };
+		E904A67B1C3CE89600F9CADC /* 展开.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "展开.png"; sourceTree = "<group>"; };
+		E904A67C1C3CE89600F9CADC /* myattention.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myattention.png; sourceTree = "<group>"; };
+		E904A67D1C3CE89600F9CADC /* myFamilarTrucks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myFamilarTrucks.png; sourceTree = "<group>"; };
+		E904A67E1C3CE89600F9CADC /* messages.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = messages.png; sourceTree = "<group>"; };
+		E904A67F1C3CE89600F9CADC /* payhistory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = payhistory.png; sourceTree = "<group>"; };
+		E904A6801C3CE89600F9CADC /* setInfo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setInfo.png; sourceTree = "<group>"; };
+		E904A6811C3CE89600F9CADC /* 返回.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回.png"; sourceTree = "<group>"; };
+		E904A6821C3CE89600F9CADC /* findFriends.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = findFriends.png; sourceTree = "<group>"; };
+		E904A68E1C3CEB1400F9CADC /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		E94DBFB71C3CBE8700509385 /* WritePayCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WritePayCodeViewController.swift; sourceTree = "<group>"; };
+		E94DBFBF1C3CC1E000509385 /* UpdatePayCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdatePayCodeViewController.swift; sourceTree = "<group>"; };
+		E94DBFC11C3CC32C00509385 /* PayCodeSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayCodeSelectViewController.swift; sourceTree = "<group>"; };
 		E95862041C214F5D0067D07F /* GuidePage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuidePage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95862071C214F5D0067D07F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E95862091C214F5D0067D07F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = GuidePage/ViewController.swift; sourceTree = "<group>"; };
@@ -157,6 +198,7 @@
 		E9B800A41C33A019009F06AE /* GoodsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodsViewController.swift; sourceTree = "<group>"; };
 		E9B800A71C34BC36009F06AE /* MyOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyOrderViewController.swift; sourceTree = "<group>"; };
 		E9B800AF1C34DAA4009F06AE /* GoodInfoViewItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoodInfoViewItem.swift; sourceTree = "<group>"; };
+		E9BA18431C3CB6B50063301E /* PhoneIDNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneIDNumberViewController.swift; sourceTree = "<group>"; };
 		E9D442101C27E45B006E200D /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
 		E9D9833E1C2BCEB4004E3493 /* ReleaseTruckViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReleaseTruckViewController.swift; sourceTree = "<group>"; };
 		E9D983471C2BD600004E3493 /* DictionaryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryModel.swift; sourceTree = "<group>"; };
@@ -172,6 +214,14 @@
 		E9E4DDC51C2A963500C496D3 /* 上传照片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上传照片.png"; sourceTree = "<group>"; };
 		E9E4DDC71C2A963D00C496D3 /* expand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = expand.png; sourceTree = "<group>"; };
 		E9E4DDC91C2A964C00C496D3 /* 返回.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回.png"; sourceTree = "<group>"; };
+		E9FD0B671C3A61FD003C3B48 /* cellphonereplenishing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cellphonereplenishing.jpg; sourceTree = "<group>"; };
+		E9FD0B681C3A61FD003C3B48 /* TransferAccounts.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = TransferAccounts.jpg; sourceTree = "<group>"; };
+		E9FD0B6A1C3A61FD003C3B48 /* paycode.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paycode.jpg; sourceTree = "<group>"; };
+		E9FD0B6B1C3A61FD003C3B48 /* bankcard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bankcard.jpg; sourceTree = "<group>"; };
+		E9FD0B6C1C3A61FD003C3B48 /* redpacket.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redpacket.jpg; sourceTree = "<group>"; };
+		E9FD0B731C3A633E003C3B48 /* Paybycard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Paybycard.jpg; sourceTree = "<group>"; };
+		E9FD0B751C3A657B003C3B48 /* MyWalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWalletViewController.swift; sourceTree = "<group>"; };
+		E9FD0B771C3B5604003C3B48 /* PaymentCodeSetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentCodeSetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +236,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E904A6771C3CE89600F9CADC /* 我 */ = {
+			isa = PBXGroup;
+			children = (
+				E904A6781C3CE89600F9CADC /* 上传照片.png */,
+				E904A6791C3CE89600F9CADC /* payByCard.png */,
+				E904A67A1C3CE89600F9CADC /* history.png */,
+				E904A67B1C3CE89600F9CADC /* 展开.png */,
+				E904A67C1C3CE89600F9CADC /* myattention.png */,
+				E904A67D1C3CE89600F9CADC /* myFamilarTrucks.png */,
+				E904A67E1C3CE89600F9CADC /* messages.png */,
+				E904A67F1C3CE89600F9CADC /* payhistory.png */,
+				E904A6801C3CE89600F9CADC /* setInfo.png */,
+				E904A6811C3CE89600F9CADC /* 返回.png */,
+				E904A6821C3CE89600F9CADC /* findFriends.png */,
+			);
+			path = "我";
+			sourceTree = "<group>";
+		};
 		E95861FB1C214F5D0067D07F = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +288,8 @@
 		E95862231C225D080067D07F /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E904A6771C3CE89600F9CADC /* 我 */,
+				E9FD0B601C3A54C7003C3B48 /* mywallet */,
 				E9B800931C3388B7009F06AE /* goodsInfo */,
 				E9E4DD9E1C2960B800C496D3 /* 引导页 */,
 			);
@@ -312,6 +382,7 @@
 		E9E4DDB61C2A31F000C496D3 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E94DBFBF1C3CC1E000509385 /* UpdatePayCodeViewController.swift */,
 				E9E4DDB31C2A30A300C496D3 /* RegisterViewController.swift */,
 				E95862211C2154120067D07F /* MainViewController.swift */,
 				E95862091C214F5D0067D07F /* ViewController.swift */,
@@ -319,8 +390,28 @@
 				E98822871C2D109E00158B71 /* AddDriverTruckVC.swift */,
 				E9B800A41C33A019009F06AE /* GoodsViewController.swift */,
 				E9B800A71C34BC36009F06AE /* MyOrderViewController.swift */,
+				E9FD0B751C3A657B003C3B48 /* MyWalletViewController.swift */,
+				E9FD0B771C3B5604003C3B48 /* PaymentCodeSetViewController.swift */,
+				E9BA18431C3CB6B50063301E /* PhoneIDNumberViewController.swift */,
+				E94DBFB71C3CBE8700509385 /* WritePayCodeViewController.swift */,
+				E94DBFC11C3CC32C00509385 /* PayCodeSelectViewController.swift */,
+				E904A68E1C3CEB1400F9CADC /* MineViewController.swift */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E9FD0B601C3A54C7003C3B48 /* mywallet */ = {
+			isa = PBXGroup;
+			children = (
+				E904A66F1C3CDC7200F9CADC /* close.png */,
+				E9FD0B671C3A61FD003C3B48 /* cellphonereplenishing.jpg */,
+				E9FD0B731C3A633E003C3B48 /* Paybycard.jpg */,
+				E9FD0B681C3A61FD003C3B48 /* TransferAccounts.jpg */,
+				E9FD0B6A1C3A61FD003C3B48 /* paycode.jpg */,
+				E9FD0B6B1C3A61FD003C3B48 /* bankcard.jpg */,
+				E9FD0B6C1C3A61FD003C3B48 /* redpacket.jpg */,
+			);
+			name = mywallet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,21 +533,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E904A6851C3CE89600F9CADC /* history.png in Resources */,
 				E9B8009E1C3388D2009F06AE /* graborder.png in Resources */,
 				E9E4DDC11C2A880C00C496D3 /* 我是车主.jpg in Resources */,
 				E9E4DDAE1C2A2F9200C496D3 /* selected.png in Resources */,
 				E9E4DDC21C2A880C00C496D3 /* 我是货主.jpg in Resources */,
+				E904A68B1C3CE89600F9CADC /* setInfo.png in Resources */,
 				E9E4DDAA1C2A2B6200C496D3 /* 姓名.png in Resources */,
 				E9B800A31C3388D2009F06AE /* loadtime.png in Resources */,
+				E9FD0B741C3A633E003C3B48 /* Paybycard.jpg in Resources */,
 				E9B800A11C3388D2009F06AE /* endPosition.png in Resources */,
+				E9FD0B721C3A61FD003C3B48 /* redpacket.jpg in Resources */,
 				E96DECF91C22850B000EFE65 /* 密码.png in Resources */,
+				E904A6841C3CE89600F9CADC /* payByCard.png in Resources */,
+				E904A6701C3CDC7200F9CADC /* close.png in Resources */,
+				E9FD0B711C3A61FD003C3B48 /* bankcard.jpg in Resources */,
+				E904A6861C3CE89600F9CADC /* 展开.png in Resources */,
 				E958620F1C214F5D0067D07F /* Assets.xcassets in Resources */,
 				E96DECF81C22850B000EFE65 /* 交运LOGO.png in Resources */,
+				E9FD0B6D1C3A61FD003C3B48 /* cellphonereplenishing.jpg in Resources */,
 				E96DECFA1C22850B000EFE65 /* 手机号.png in Resources */,
 				E9B800A01C3388D2009F06AE /* returnback.png in Resources */,
+				E9FD0B6E1C3A61FD003C3B48 /* TransferAccounts.jpg in Resources */,
+				E904A6871C3CE89600F9CADC /* myattention.png in Resources */,
 				E958620D1C214F5D0067D07F /* Main.storyboard in Resources */,
 				E9E4DDC81C2A963D00C496D3 /* expand.png in Resources */,
 				E9B8009D1C3388D2009F06AE /* startPosition.png in Resources */,
+				E904A6881C3CE89600F9CADC /* myFamilarTrucks.png in Resources */,
 				E9E4DDC01C2A880C00C496D3 /* 门头照片.jpg in Resources */,
 				E9B800A21C3388D2009F06AE /* bigtruck.png in Resources */,
 				E9B8008C1C337F97009F06AE /* xcz.jpg in Resources */,
@@ -465,10 +568,16 @@
 				E9E4DDBF1C2A880C00C496D3 /* 个人名片.jpg in Resources */,
 				E9E4DDC41C2A962700C496D3 /* 添加.png in Resources */,
 				E9B8008A1C337F97009F06AE /* yyz.jpg in Resources */,
+				E904A68A1C3CE89600F9CADC /* payhistory.png in Resources */,
 				E9B8009C1C3388D2009F06AE /* goodstype.png in Resources */,
+				E904A6891C3CE89600F9CADC /* messages.png in Resources */,
 				E9E4DDCA1C2A964D00C496D3 /* 返回.png in Resources */,
+				E9FD0B701C3A61FD003C3B48 /* paycode.jpg in Resources */,
+				E904A6831C3CE89600F9CADC /* 上传照片.png in Resources */,
 				E9B8008B1C337F97009F06AE /* truck.jpg in Resources */,
+				E904A68D1C3CE89600F9CADC /* findFriends.png in Resources */,
 				E958621B1C2150570067D07F /* 3.png in Resources */,
+				E904A68C1C3CE89600F9CADC /* 返回.png in Resources */,
 				E95862201C2151AA0067D07F /* 主界面.jpg in Resources */,
 				E958621C1C2150570067D07F /* 123.jpg in Resources */,
 				E9B8009F1C3388D2009F06AE /* littletruck.png in Resources */,
@@ -485,15 +594,22 @@
 			files = (
 				E98822881C2D109E00158B71 /* AddDriverTruckVC.swift in Sources */,
 				E95862221C2154120067D07F /* MainViewController.swift in Sources */,
+				E9FD0B781C3B5604003C3B48 /* PaymentCodeSetViewController.swift in Sources */,
 				E9B800A51C33A019009F06AE /* GoodsViewController.swift in Sources */,
 				E9B800A81C34BC36009F06AE /* MyOrderViewController.swift in Sources */,
 				E9B800B01C34DAA4009F06AE /* GoodInfoViewItem.swift in Sources */,
+				E9FD0B761C3A657B003C3B48 /* MyWalletViewController.swift in Sources */,
+				E94DBFC01C3CC1E000509385 /* UpdatePayCodeViewController.swift in Sources */,
+				E9BA18441C3CB6B50063301E /* PhoneIDNumberViewController.swift in Sources */,
 				E9D983481C2BD600004E3493 /* DictionaryModel.swift in Sources */,
 				E958620A1C214F5D0067D07F /* ViewController.swift in Sources */,
+				E904A68F1C3CEB1400F9CADC /* MineViewController.swift in Sources */,
+				E94DBFB81C3CBE8700509385 /* WritePayCodeViewController.swift in Sources */,
 				E95862081C214F5D0067D07F /* AppDelegate.swift in Sources */,
 				E9E4DDB41C2A30A300C496D3 /* RegisterViewController.swift in Sources */,
 				E98822761C2BF89100158B71 /* TruckControllerViewItem.swift in Sources */,
 				E9D9833F1C2BCEB4004E3493 /* ReleaseTruckViewController.swift in Sources */,
+				E94DBFC21C3CC32C00509385 /* PayCodeSelectViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
