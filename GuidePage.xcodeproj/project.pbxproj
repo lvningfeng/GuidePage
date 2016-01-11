@@ -76,6 +76,7 @@
 		E9FD0B741C3A633E003C3B48 /* Paybycard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E9FD0B731C3A633E003C3B48 /* Paybycard.jpg */; };
 		E9FD0B761C3A657B003C3B48 /* MyWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FD0B751C3A657B003C3B48 /* MyWalletViewController.swift */; };
 		E9FD0B781C3B5604003C3B48 /* PaymentCodeSetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FD0B771C3B5604003C3B48 /* PaymentCodeSetViewController.swift */; };
+		E9FFC18F1C3F5347003029A3 /* TruckMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9FFC18E1C3F5347003029A3 /* TruckMineViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -222,6 +223,7 @@
 		E9FD0B731C3A633E003C3B48 /* Paybycard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Paybycard.jpg; sourceTree = "<group>"; };
 		E9FD0B751C3A657B003C3B48 /* MyWalletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWalletViewController.swift; sourceTree = "<group>"; };
 		E9FD0B771C3B5604003C3B48 /* PaymentCodeSetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentCodeSetViewController.swift; sourceTree = "<group>"; };
+		E9FFC18E1C3F5347003029A3 /* TruckMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TruckMineViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -396,6 +398,7 @@
 				E94DBFB71C3CBE8700509385 /* WritePayCodeViewController.swift */,
 				E94DBFC11C3CC32C00509385 /* PayCodeSelectViewController.swift */,
 				E904A68E1C3CEB1400F9CADC /* MineViewController.swift */,
+				E9FFC18E1C3F5347003029A3 /* TruckMineViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -606,6 +609,7 @@
 				E904A68F1C3CEB1400F9CADC /* MineViewController.swift in Sources */,
 				E94DBFB81C3CBE8700509385 /* WritePayCodeViewController.swift in Sources */,
 				E95862081C214F5D0067D07F /* AppDelegate.swift in Sources */,
+				E9FFC18F1C3F5347003029A3 /* TruckMineViewController.swift in Sources */,
 				E9E4DDB41C2A30A300C496D3 /* RegisterViewController.swift in Sources */,
 				E98822761C2BF89100158B71 /* TruckControllerViewItem.swift in Sources */,
 				E9D9833F1C2BCEB4004E3493 /* ReleaseTruckViewController.swift in Sources */,
